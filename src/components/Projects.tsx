@@ -8,6 +8,13 @@ const Projects = () => {
             technologies: ["Drupal 10", "PHP", "Composer", "Symfony", "Bootstrap", "MySQL"],
             link: "https://acret-ph.com/",
             image: "/acret-ph-site.png"
+        },
+        {
+            title: "Hapag: QR Menu Platform (multi-tenant SaaS)",
+            description: "Multi-tenant SaaS that lets Filipino food businesses publish a QR-code digital menu. Built on Next.js App Router and Supabase with row-level-security tenant isolation, AI-generated item descriptions, and cached DeepL auto-translations",
+            technologies: ["Next.js", "React", "TypeScript", "Supabase/PostgreSQL", "Tailwind", "Vercel"],
+            link: "https://www.hapagqr.com/",
+            image: "/hapagqr.png"
         }
     ];
 
